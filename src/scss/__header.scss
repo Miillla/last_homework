@@ -1,0 +1,47 @@
+header {
+  max-width: 1089px;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem auto;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #192a3e;
+  line-height: 2.25rem;
+  letter-spacing: 0.01em;
+}
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.filter span {
+  color: #6a707e;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+}
+select#changefilter,
+option {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.01em;
+  border: none;
+  color: $blue;
+}
+.plus-button .button {
+  background: $blue;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  height: 30px;
+  width: 30px;
+  font-size: 23px;
+  color: white;
+  box-shadow: 0px 4px 10px rgba(0, 75, 255, 0.24);
+}
